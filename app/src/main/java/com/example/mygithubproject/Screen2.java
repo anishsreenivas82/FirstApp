@@ -26,7 +26,7 @@ public class Screen2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
-                sendIntent.putExtra(Intent.EXTRA_TEXT, "heyyy");
+                sendIntent.putExtra(Intent.EXTRA_TEXT, "Hello!");
                 sendIntent.setType("text/plain");
 
 
